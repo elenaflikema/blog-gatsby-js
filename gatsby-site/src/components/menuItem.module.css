@@ -1,0 +1,12 @@
+.menuOption {
+    width: 200px;
+    background-color: #f76a22;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px white;
+}
+
+.menuOption:hover {
+    color: black;
+}
