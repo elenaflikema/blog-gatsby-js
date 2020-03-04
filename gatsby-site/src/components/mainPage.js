@@ -4,7 +4,12 @@ const MainPage = () => {
 
     return (
         <div>
-            Hi! This is a main page.
+            <div>
+
+            </div>
+            <div>
+
+            </div>
         </div>
     );
 };

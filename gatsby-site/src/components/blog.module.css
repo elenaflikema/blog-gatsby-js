@@ -25,3 +25,17 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
+
+
+@media screen and (max-width: 800px) {
+    .articles_list {
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        min-width: 150px;
+        max-width: 1200px;
+        color: black;
+        line-height: 1.5;
+        display: flex;
+    }
+}

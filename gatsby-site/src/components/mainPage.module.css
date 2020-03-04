@@ -1,0 +1,18 @@
+.text {
+    padding: 10px 15px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.info_block {
+    margin: 30px 10% 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .text {
+        padding: 5px 15px 0 15px;
+        font-family: 'Shadows Into Light', cursive;
+    }
+    .info_block {
+        margin: 10px 10% 10px;
+    }
+}

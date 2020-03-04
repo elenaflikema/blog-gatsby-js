@@ -1,6 +1,8 @@
 import {graphql, Link, useStaticQuery} from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faVk, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 import layoutStyles from "./layout.module.css";
 
@@ -36,25 +38,25 @@ const Header = () => {
                        target="_blank"
                        rel="noopener noreferrer"
                     >
-                        <i className="fab fa-youtube" />
+                        <FontAwesomeIcon icon={faYoutube}/>
                     </a>
                     <a className={layoutStyles.media_option}
                        href='https://www.instagram.com/J_flick_lc/'
                        target="_blank" rel="noopener noreferrer"
                     >
-                        <i className="fab fa-instagram"/>
+                        <FontAwesomeIcon icon={faInstagram}/>
                     </a>
                     <a className={layoutStyles.media_option}
                        href='https://vk.com/joshflickema'
                        target="_blank" rel="noopener noreferrer"
                     >
-                        <i className="fab fa-vk" />
+                        <FontAwesomeIcon icon={faVk} />
                     </a>
                     <a className={layoutStyles.media_option}
                        href='https://www.facebook.com/jimmyviking36'
                        target="_blank" rel="noopener noreferrer"
                     >
-                        <i className="fab fa-facebook" />
+                        <FontAwesomeIcon icon={faFacebook} />
                     </a>
                 </h2>
             </div>

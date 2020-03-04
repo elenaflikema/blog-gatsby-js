@@ -2,11 +2,10 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import menuItemStyles from "./menuItem.module.css";
-import layoutStyles from "./layout.module.css";
 
 const MenuItem = ({ pageName, pageLink }) => (
     <Link to={pageLink}>
-        <h2 className={layoutStyles.name}>
+        <h2>
             <div className={menuItemStyles.menuOption}>
                 {pageName}
             </div>

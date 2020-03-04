@@ -1,15 +1,16 @@
 import React from "react";
 import BlogItem from "./blogItem";
 import blogStyles from "./blog.module.css";
+import { articlesConfig } from '../articles_config';
 
 const ArticlesList = () => {
 
-    const articleIds = [1, 2, 3, 4];
+    const articles = articlesConfig;
 
     return (
         <div className={blogStyles.articles_list}>
             {
-                articleIds.map((id) => {
+                articles.map(({id}) => {
                     return (<BlogItem key={id} id={id} state={{id}}/>);
                 })
             }

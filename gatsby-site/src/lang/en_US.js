@@ -6,6 +6,10 @@ export const lang = {
      INTRO_BLOCK_1: "Over the years, I have become known as a mentor, coach, advisor, therapist, confidant and friend to my clients.",
      INTRO_BLOCK_2: "And now I am going to help you!",
      ARTICLES: {
+          id_0: {
+               name: 'name_0',
+               description: 'description_0'
+          },
           id_1: {
                name: 'name_1',
                description: 'description_1'
@@ -22,6 +26,12 @@ export const lang = {
                name: 'name_4',
                description: 'description_4'
           },
-
+          id_5: {
+               name: 'name_5',
+               description: 'description_5'
+          },
+     },
+     ARTICLE_TYPES : {
+          MEMORIES: 'Memories'
      }
 };

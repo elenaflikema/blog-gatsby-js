@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import MenuBar from "../components/menuBar";
 
 const BlogArticle = ( id ) => {
 
@@ -12,8 +13,7 @@ const BlogArticle = ( id ) => {
     return (
         <Layout>
             <SEO title="My English Blog"/>
-            <h1>Blog</h1>
-            <p>Welcome to my Blog</p>
+            <MenuBar/>
             {name}
         </Layout>
     );
