@@ -1,10 +1,11 @@
 export const lang = {
-     MY_BLOG: "MY BLOG",
+     GALLERY: "Познакомиться",
+     REQUEST: "ОТДАТЬ ВЕЩЬ",
      VIDEO_LESSONS: "VIDEO LESSONS",
      CONTACT_ME: "CONTACT ME",
      COPYRIGHTS: "Copyrights",
-     INTRO_BLOCK_1: "Over the years, I have become known as a mentor, coach, advisor, therapist, confidant and friend to my clients.",
-     INTRO_BLOCK_2: "And now I am going to help you!",
+     INTRO_BLOCK_1: "Все вещи, живущие здесь, обладают историей. ",
+     INTRO_BLOCK_2: "Они хотят, чтобы их забрал к себе новый человек, которого бы они радовали.",
      ARTICLES: {
           id_0: {
                name: 'name_0',

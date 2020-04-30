@@ -1,6 +1,6 @@
 import {ARTICLE_TYPES} from "./utils";
 
-export const articlesConfig = [
+export const productConfig = [
     {
         id: 0,
         type: ARTICLE_TYPES.MEMORIES,
@@ -34,5 +34,5 @@ export const articlesConfig = [
 ];
 
 export function getArticleInfoById(id) {
-    return articlesConfig.find((article) => id === article.id);
+    return productConfig.find((article) => id === article.id);
 }

@@ -3,11 +3,12 @@
 }
 
 .article_preview {
-    background-color: white;
+    background-color: #faf5ef;
     color: black;
     padding: 20px;
     margin: 5px;
     width: 250px;
+    border: 1px solid black;
 }
 
 .articles_list {
@@ -26,6 +27,10 @@
     grid-gap: 10px;
 }
 
+.title {
+    color: #9b1f21;
+    padding-bottom: 10px;
+}
 
 @media screen and (max-width: 800px) {
     .articles_list {

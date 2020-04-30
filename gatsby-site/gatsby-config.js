@@ -1,8 +1,6 @@
 module.exports = {
   siteMetadata: {
-    name: `J O S H U A`,
-    lastName: `F L I C K E M A`,
-    title: `PROFESSIONAL ENGLISH TEACHER`,
+    title: `ПРИЮТ ДЛЯ ВЕЩЕЙ`,
     description: `English Teacher, Free English Lessons, English Grammar`,
     author: `@elenaflikema`,
   },
@@ -31,7 +29,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Raleway', 'Poiret One', 'Shadows Into Light']
+          families: ['Cormorant Unicase', 'Didact Gothic', 'Fira Sans Extra Condensed:500,900', 'Prosto One', 'Pacifico']
         }
       }
     }

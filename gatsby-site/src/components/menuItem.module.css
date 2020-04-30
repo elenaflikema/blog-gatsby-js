@@ -1,12 +1,13 @@
 .menuOption {
-    width: 200px;
-    background-color: #f76a22;
-    color: white;
     padding: 10px;
     margin: 10px;
-    box-shadow: 2px 2px white;
+    color: black;
+    border: 1px solid black;
+    background-color: #faf5ef;
+    align-self: center;
+    font-size: 2.0rem;
 }
 
 .menuOption:hover {
-    color: black;
+
 }

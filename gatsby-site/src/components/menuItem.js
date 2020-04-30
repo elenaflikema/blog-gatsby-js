@@ -4,13 +4,9 @@ import React from "react";
 import menuItemStyles from "./menuItem.module.css";
 
 const MenuItem = ({ pageName, pageLink }) => (
-    <Link to={pageLink}>
-        <h2>
-            <div className={menuItemStyles.menuOption}>
-                {pageName}
-            </div>
-        </h2>
-    </Link>
+    <div className={menuItemStyles.menuOption}>
+        <Link to={pageLink}>{pageName}</Link>
+    </div>
 );
 
 MenuItem.propTypes = {

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import PropTypes from "prop-types";
 
 import Header from "./header";
@@ -9,13 +9,15 @@ import { lang } from "../lang/en_US";
 const Layout = ({children}) => {
 
     return (
-        <div className={layoutStyles.background}>
-            <Header />
-            <main>{children}</main>
-            <footer>
-                {lang.COPYRIGHTS} © {new Date().getFullYear()}, Joshua Flickema
-            </footer>
-        </div>
+        <main className={layoutStyles.container}>
+            <nav className={layoutStyles.nav_bar}>
+                <div className={layoutStyles.brand_name}><strong>{'ПРИЮТ ВЕЩЕЙ'}</strong></div>
+                <Header />
+            </nav>
+            <section className={layoutStyles.main_section}>
+                {children}
+            </section>
+        </main>
     );
 };
 

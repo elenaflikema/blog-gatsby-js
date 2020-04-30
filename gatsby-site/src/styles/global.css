@@ -1,41 +1,32 @@
 body {
-    font-family: 'Raleway', sans-serif;
-    background: black url("../images/avatar.jpg") no-repeat top right;
-    background-size: 60%;
-    color: white;
-    padding: 0;
+    padding: 1rem;
+    font-family: 'Poiret One', cursive ;
+    background: #faf5ef;
+    opacity: 0.9;
+    color: black;
     margin: 0;
-}
-
-@media screen and (max-width: 600px) {
-    body {
-        font-family: 'Raleway', sans-serif;
-        background: black url("../images/avatar.jpg") no-repeat top right;
-        background-size: 80%;
-        color: white;
-        padding: 0;
-        margin: 0;
-    }
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
 }
 
 h1 {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 2.0rem;
+}
+
+h2 {
     padding: 0 10px;
+    margin: 0;
+    color: #9b1f21;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 0;
     margin: 0;
-}
-
-h2 {
-    padding: 0;
-    margin: 0;
-}
-
-footer {
-    color: rgba(255, 255, 255, 0.5);
-    width: 100%;
-    text-align: center;
 }
